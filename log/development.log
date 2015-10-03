@@ -489,3 +489,1976 @@ Completed 201 Created in 195ms (Views: 3.0ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/template/picture/update_picture.html" for 127.0.0.1 at 2015-10-03 16:12:26 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-03 16:36:40 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MapsController#index as HTML
+  Rendered maps/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 559ms (Views: 528.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bandeau.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:40 +0200
+
+
+Started GET "/assets/albums.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:40 +0200
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:40 +0200
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/material.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/nav-side.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/palette.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/ng-animation.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/toolbar.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/upload.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/lib/angular.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/lib/angular-aria.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/lib/angular-animate.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/lib/angular-material.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/lib/angular-file-upload.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/lib/lodash.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/lib/angular-google-maps.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/lib/angular-file-upload-shim.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/lib/array-lib.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/lib/bluebird.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/lib/load-image.all.min.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/lib/string-lib.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/maps/modules/maps_module.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/albums/controllers/album_edit_controller.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/albums/controllers/palette_album_controller.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/albums/directives/album.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/albums/services/album_service.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/generics/services.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/locations/controllers/locations_controller.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/locations/services/convert_services.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/locations/services/location_service.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/maps/controllers/maps_controller.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/maps/directives/bandeau_information.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/maps/directives/marker_pictures.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/pictures/controllers/palette_picture_controller.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/pictures/controllers/picture_sheet_controller.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/pictures/controllers/pictures_edit_controller.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/pictures/directives/picture.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/pictures/directives/pictures.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/pictures/services/file_service.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/pictures/services/picture_service.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/toolbar/controllers/toolbar_controller.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-03 16:36:41 +0200
+
+
+Started GET "/assets/template/map/marker_picture.html" for 127.0.0.1 at 2015-10-03 16:36:42 +0200
+
+
+Started GET "/assets/template/map/bandeau_information.html" for 127.0.0.1 at 2015-10-03 16:36:42 +0200
+
+
+Started GET "/api/albums.json" for 127.0.0.1 at 2015-10-03 16:36:42 +0200
+Processing by Api::AlbumsController#index as JSON
+  [1m[35mAlbum Load (0.0ms)[0m  SELECT "albums".* FROM "albums"
+Completed 201 Created in 46ms (Views: 9.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/template/album/album.html" for 127.0.0.1 at 2015-10-03 16:36:42 +0200
+
+
+Started GET "/api/albums/9/pictures.json" for 127.0.0.1 at 2015-10-03 16:36:42 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"9"}
+DEPRECATION WARNING: String based terminators are deprecated, please use a lambda. (called from <class:Picture> at C:/rubyProjects/MyTripMap/app/models/picture.rb:11)
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 9[0m
+Completed 201 Created in 27ms (Views: 0.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/api/albums/6/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 16:36:42 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"6"}
+  [1m[35mPicture Load (1.0ms)[0m  SELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6  ORDER BY "pictures"."id" DESC LIMIT 4
+Completed 201 Created in 18ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/9/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 16:36:42 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"9"}
+  [1m[36mPicture Load (0.0ms)[0m  [1mSELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 9  ORDER BY "pictures"."id" DESC LIMIT 4[0m
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/albums/7/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 16:36:42 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"7"}
+  [1m[35mPicture Load (0.0ms)[0m  SELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 7  ORDER BY "pictures"."id" DESC LIMIT 4
+Completed 201 Created in 7ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/edit.svg" for 127.0.0.1 at 2015-10-03 16:36:42 +0200
+
+
+Started GET "/assets/delete.svg" for 127.0.0.1 at 2015-10-03 16:36:42 +0200
+
+
+Started GET "/assets/template/picture/picture.html" for 127.0.0.1 at 2015-10-03 16:36:42 +0200
+
+
+Started GET "/api/albums/6/pictures.json" for 127.0.0.1 at 2015-10-03 16:40:28 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"6"}
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6[0m
+Completed 201 Created in 11ms (Views: 3.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/110.json" for 127.0.0.1 at 2015-10-03 16:40:28 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"110"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 110]]
+Completed 201 Created in 15ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/111.json" for 127.0.0.1 at 2015-10-03 16:40:28 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"111"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 111]]
+Completed 201 Created in 6ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/112.json" for 127.0.0.1 at 2015-10-03 16:40:28 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"112"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 112]]
+Completed 201 Created in 5ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/114.json" for 127.0.0.1 at 2015-10-03 16:40:29 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"114"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 114]]
+Completed 201 Created in 11ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/113.json" for 127.0.0.1 at 2015-10-03 16:40:29 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"113"}
+  [1m[35mLocation Load (4.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 113]]
+Completed 201 Created in 9ms (Views: 1.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/api/locations/115.json" for 127.0.0.1 at 2015-10-03 16:40:29 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"115"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 115]]
+Completed 201 Created in 12ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/116.json" for 127.0.0.1 at 2015-10-03 16:40:29 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"116"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 116]]
+Completed 201 Created in 4ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/117.json" for 127.0.0.1 at 2015-10-03 16:40:29 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"117"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 117]]
+Completed 201 Created in 9ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/6/pictures.json" for 127.0.0.1 at 2015-10-03 16:40:31 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"6"}
+  [1m[35mPicture Load (1.0ms)[0m  SELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6
+Completed 201 Created in 9ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/110.json" for 127.0.0.1 at 2015-10-03 16:40:32 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"110"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 110]]
+Completed 201 Created in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/111.json" for 127.0.0.1 at 2015-10-03 16:40:32 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"111"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 111]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/115.json" for 127.0.0.1 at 2015-10-03 16:40:32 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"115"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 115]]
+Completed 201 Created in 27ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/114.json" for 127.0.0.1 at 2015-10-03 16:40:32 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"114"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 114]]
+Completed 201 Created in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/112.json" for 127.0.0.1 at 2015-10-03 16:40:32 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"112"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 112]]
+Completed 201 Created in 79ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/113.json" for 127.0.0.1 at 2015-10-03 16:40:32 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"113"}
+  [1m[35mLocation Load (3.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 113]]
+Completed 201 Created in 24ms (Views: 6.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/api/locations/116.json" for 127.0.0.1 at 2015-10-03 16:40:32 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"116"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 116]]
+Completed 201 Created in 14ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/117.json" for 127.0.0.1 at 2015-10-03 16:40:32 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"117"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 117]]
+Completed 201 Created in 12ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/7/pictures.json" for 127.0.0.1 at 2015-10-03 16:40:54 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"7"}
+  [1m[36mPicture Load (0.0ms)[0m  [1mSELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 7[0m
+Completed 201 Created in 8ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/150.json" for 127.0.0.1 at 2015-10-03 16:40:54 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"150"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 150]]
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/152.json" for 127.0.0.1 at 2015-10-03 16:40:54 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"152"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 152]]
+Completed 201 Created in 6ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/151.json" for 127.0.0.1 at 2015-10-03 16:40:54 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"151"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 151]]
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/153.json" for 127.0.0.1 at 2015-10-03 16:40:54 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"153"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 153]]
+Completed 201 Created in 5ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/154.json" for 127.0.0.1 at 2015-10-03 16:40:55 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"154"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 154]]
+Completed 201 Created in 4ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/6/pictures.json" for 127.0.0.1 at 2015-10-03 16:40:56 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"6"}
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6[0m
+Completed 201 Created in 10ms (Views: 3.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/111.json" for 127.0.0.1 at 2015-10-03 16:40:56 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"111"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 111]]
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/110.json" for 127.0.0.1 at 2015-10-03 16:40:56 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"110"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 110]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/113.json" for 127.0.0.1 at 2015-10-03 16:40:56 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"113"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 113]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/112.json" for 127.0.0.1 at 2015-10-03 16:40:56 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"112"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 112]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/114.json" for 127.0.0.1 at 2015-10-03 16:40:56 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"114"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 114]]
+Completed 201 Created in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/115.json" for 127.0.0.1 at 2015-10-03 16:40:56 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"115"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 115]]
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/116.json" for 127.0.0.1 at 2015-10-03 16:40:56 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"116"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 116]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/117.json" for 127.0.0.1 at 2015-10-03 16:40:56 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"117"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 117]]
+Completed 201 Created in 2ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+Processing by MapsController#index as HTML
+  Rendered maps/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 219ms (Views: 218.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/bandeau.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/nav-side.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/albums.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/material.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/ng-animation.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/palette.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/toolbar.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/upload.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/lib/angular.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/lib/angular-aria.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/lib/angular-animate.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/lib/angular-material.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/lib/angular-file-upload.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/lib/lodash.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/lib/angular-google-maps.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/lib/angular-file-upload-shim.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/lib/array-lib.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/albums/controllers/album_edit_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/lib/load-image.all.min.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/lib/string-lib.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:16 +0200
+
+
+Started GET "/assets/maps/modules/maps_module.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/lib/bluebird.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/albums/services/album_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/albums/controllers/palette_album_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/albums/directives/album.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/generics/services.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/locations/controllers/locations_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/locations/services/convert_services.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/locations/services/location_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/maps/controllers/maps_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/maps/directives/bandeau_information.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/maps/directives/marker_pictures.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/pictures/controllers/palette_picture_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/pictures/controllers/picture_sheet_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/pictures/controllers/pictures_edit_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/pictures/directives/picture.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/pictures/directives/pictures.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/pictures/services/file_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/pictures/services/picture_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/toolbar/controllers/toolbar_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/template/map/marker_picture.html" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/template/album/album.html" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/template/map/bandeau_information.html" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/api/albums.json" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+Processing by Api::AlbumsController#index as JSON
+  [1m[35mAlbum Load (0.0ms)[0m  SELECT "albums".* FROM "albums"
+Completed 201 Created in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/albums/9/pictures.json" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"9"}
+  [1m[36mPicture Load (0.0ms)[0m  [1mSELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 9[0m
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/albums/7/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"7"}
+  [1m[35mPicture Load (0.0ms)[0m  SELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 7  ORDER BY "pictures"."id" DESC LIMIT 4
+Completed 201 Created in 7ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/albums/6/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"6"}
+  [1m[36mPicture Load (0.0ms)[0m  [1mSELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6  ORDER BY "pictures"."id" DESC LIMIT 4[0m
+Completed 201 Created in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/albums/9/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"9"}
+  [1m[35mPicture Load (1.0ms)[0m  SELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 9  ORDER BY "pictures"."id" DESC LIMIT 4
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/delete.svg" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/edit.svg" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/template/picture/picture.html" for 127.0.0.1 at 2015-10-03 17:36:17 +0200
+
+
+Started GET "/assets/albums.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:54 +0200
+
+
+Started GET "/assets/bandeau.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:54 +0200
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:54 +0200
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:54 +0200
+
+
+Started GET "/assets/ng-animation.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:54 +0200
+
+
+Started GET "/assets/material.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:54 +0200
+
+
+Started GET "/assets/palette.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:54 +0200
+
+
+Started GET "/assets/nav-side.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:54 +0200
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:54 +0200
+
+
+Started GET "/assets/toolbar.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:54 +0200
+
+
+Started GET "/assets/upload.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:55 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:55 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-03 17:37:55 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-03 17:45:28 +0200
+Processing by MapsController#index as HTML
+  Rendered maps/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 378ms (Views: 377.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bandeau.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:28 +0200
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:28 +0200
+
+
+Started GET "/assets/nav-side.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:28 +0200
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:28 +0200
+
+
+Started GET "/assets/material.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:28 +0200
+
+
+Started GET "/assets/albums.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:28 +0200
+
+
+Started GET "/assets/ng-animation.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:28 +0200
+
+
+Started GET "/assets/palette.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:28 +0200
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/toolbar.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/upload.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/lib/angular.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/lib/angular-aria.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/lib/angular-animate.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/lib/angular-material.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/lib/angular-google-maps.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/lib/lodash.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/lib/angular-file-upload.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/lib/angular-file-upload-shim.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/lib/bluebird.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/lib/array-lib.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/lib/load-image.all.min.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:29 +0200
+
+
+Started GET "/assets/lib/string-lib.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/maps/modules/maps_module.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/albums/controllers/album_edit_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/albums/directives/album.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/albums/services/album_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/locations/controllers/locations_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/albums/controllers/palette_album_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/generics/services.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/locations/services/convert_services.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/locations/services/location_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/maps/controllers/maps_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/maps/directives/marker_pictures.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/maps/directives/bandeau_information.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/pictures/controllers/palette_picture_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/pictures/controllers/picture_sheet_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/pictures/controllers/pictures_edit_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/pictures/directives/picture.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/pictures/directives/pictures.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/pictures/services/file_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/pictures/services/picture_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/toolbar/controllers/toolbar_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:30 +0200
+
+
+Started GET "/assets/template/map/bandeau_information.html" for 127.0.0.1 at 2015-10-03 17:45:31 +0200
+
+
+Started GET "/assets/template/map/marker_picture.html" for 127.0.0.1 at 2015-10-03 17:45:31 +0200
+
+
+Started GET "/assets/template/album/album.html" for 127.0.0.1 at 2015-10-03 17:45:31 +0200
+
+
+Started GET "/api/albums.json" for 127.0.0.1 at 2015-10-03 17:45:31 +0200
+Processing by Api::AlbumsController#index as JSON
+  [1m[36mAlbum Load (1.0ms)[0m  [1mSELECT "albums".* FROM "albums"[0m
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/9/pictures.json" for 127.0.0.1 at 2015-10-03 17:45:31 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"9"}
+  [1m[35mPicture Load (1.0ms)[0m  SELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 9
+Completed 201 Created in 8ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/7/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 17:45:31 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"7"}
+  [1m[36mPicture Load (0.0ms)[0m  [1mSELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 7  ORDER BY "pictures"."id" DESC LIMIT 4[0m
+Completed 201 Created in 8ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/albums/6/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 17:45:31 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"6"}
+  [1m[35mPicture Load (0.0ms)[0m  SELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6  ORDER BY "pictures"."id" DESC LIMIT 4
+Completed 201 Created in 7ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/albums/9/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 17:45:31 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"9"}
+  [1m[36mPicture Load (0.0ms)[0m  [1mSELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 9  ORDER BY "pictures"."id" DESC LIMIT 4[0m
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/edit.svg" for 127.0.0.1 at 2015-10-03 17:45:31 +0200
+
+
+Started GET "/assets/delete.svg" for 127.0.0.1 at 2015-10-03 17:45:31 +0200
+
+
+Started GET "/assets/template/picture/picture.html" for 127.0.0.1 at 2015-10-03 17:45:31 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-03 17:45:32 +0200
+Processing by MapsController#index as HTML
+  Rendered maps/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 277ms (Views: 275.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bandeau.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:32 +0200
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:32 +0200
+
+
+Started GET "/assets/albums.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:32 +0200
+
+
+Started GET "/assets/nav-side.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:32 +0200
+
+
+Started GET "/assets/material.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/ng-animation.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/palette.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/toolbar.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/upload.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/lib/angular.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/lib/angular-aria.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/lib/angular-animate.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/lib/angular-material.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/lib/angular-file-upload.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/lib/lodash.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/lib/angular-file-upload-shim.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/lib/angular-google-maps.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/lib/array-lib.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/lib/bluebird.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/lib/load-image.all.min.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:33 +0200
+
+
+Started GET "/assets/lib/string-lib.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/maps/modules/maps_module.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/albums/controllers/album_edit_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/albums/controllers/palette_album_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/albums/directives/album.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/albums/services/album_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/generics/services.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/locations/controllers/locations_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/maps/controllers/maps_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/locations/services/location_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/locations/services/convert_services.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/maps/directives/bandeau_information.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/maps/directives/marker_pictures.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/pictures/controllers/palette_picture_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/pictures/controllers/picture_sheet_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/pictures/controllers/pictures_edit_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/pictures/directives/picture.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/pictures/directives/pictures.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/pictures/services/file_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/pictures/services/picture_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/toolbar/controllers/toolbar_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-03 17:45:34 +0200
+
+
+Started GET "/assets/template/album/album.html" for 127.0.0.1 at 2015-10-03 17:45:35 +0200
+
+
+Started GET "/api/albums.json" for 127.0.0.1 at 2015-10-03 17:45:35 +0200
+Processing by Api::AlbumsController#index as JSON
+  [1m[35mAlbum Load (0.0ms)[0m  SELECT "albums".* FROM "albums"
+Completed 201 Created in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/template/map/marker_picture.html" for 127.0.0.1 at 2015-10-03 17:45:35 +0200
+
+
+Started GET "/assets/template/map/bandeau_information.html" for 127.0.0.1 at 2015-10-03 17:45:35 +0200
+
+
+Started GET "/api/albums/9/pictures.json" for 127.0.0.1 at 2015-10-03 17:45:35 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"9"}
+  [1m[36mPicture Load (0.0ms)[0m  [1mSELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 9[0m
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/albums/7/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 17:45:35 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"7"}
+  [1m[35mPicture Load (1.0ms)[0m  SELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 7  ORDER BY "pictures"."id" DESC LIMIT 4
+Completed 201 Created in 9ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/6/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 17:45:35 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"6"}
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6  ORDER BY "pictures"."id" DESC LIMIT 4[0m
+Completed 201 Created in 6ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/9/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 17:45:35 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"9"}
+  [1m[35mPicture Load (0.0ms)[0m  SELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 9  ORDER BY "pictures"."id" DESC LIMIT 4
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/edit.svg" for 127.0.0.1 at 2015-10-03 17:45:35 +0200
+
+
+Started GET "/assets/delete.svg" for 127.0.0.1 at 2015-10-03 17:45:35 +0200
+
+
+Started GET "/assets/template/picture/picture.html" for 127.0.0.1 at 2015-10-03 17:45:35 +0200
+
+
+Started GET "/api/albums/6/pictures.json" for 127.0.0.1 at 2015-10-03 17:45:44 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"6"}
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6[0m
+Completed 201 Created in 11ms (Views: 3.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/110.json" for 127.0.0.1 at 2015-10-03 17:45:44 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"110"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 110]]
+Completed 201 Created in 13ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/112.json" for 127.0.0.1 at 2015-10-03 17:45:44 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"112"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 112]]
+Completed 201 Created in 5ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/113.json" for 127.0.0.1 at 2015-10-03 17:45:44 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"113"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 113]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/114.json" for 127.0.0.1 at 2015-10-03 17:45:44 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"114"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 114]]
+Completed 201 Created in 5ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/111.json" for 127.0.0.1 at 2015-10-03 17:45:44 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"111"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 111]]
+Completed 201 Created in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/115.json" for 127.0.0.1 at 2015-10-03 17:45:44 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"115"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 115]]
+Completed 201 Created in 5ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/116.json" for 127.0.0.1 at 2015-10-03 17:45:44 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"116"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 116]]
+Completed 201 Created in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/117.json" for 127.0.0.1 at 2015-10-03 17:45:44 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"117"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 117]]
+Completed 201 Created in 8ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/albums/6/pictures.json" for 127.0.0.1 at 2015-10-03 17:45:46 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"6"}
+  [1m[35mPicture Load (1.0ms)[0m  SELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6
+Completed 201 Created in 13ms (Views: 4.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/7/pictures.json" for 127.0.0.1 at 2015-10-03 17:45:46 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"7"}
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 7[0m
+Completed 201 Created in 21ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/113.json" for 127.0.0.1 at 2015-10-03 17:45:46 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"113"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 113]]
+Completed 201 Created in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/112.json" for 127.0.0.1 at 2015-10-03 17:45:46 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"112"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 112]]
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/110.json" for 127.0.0.1 at 2015-10-03 17:45:46 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"110"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 110]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/111.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"111"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 111]]
+Completed 201 Created in 36ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/114.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"114"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 114]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/115.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"115"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 115]]
+Completed 201 Created in 2ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/116.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"116"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 116]]
+Completed 201 Created in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/117.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"117"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 117]]
+Completed 201 Created in 6ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/111.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"111"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 111]]
+Completed 201 Created in 2ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/110.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"110"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 110]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/112.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"112"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 112]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/113.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"113"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 113]]
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/114.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"114"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 114]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/115.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"115"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 115]]
+Completed 201 Created in 5ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/116.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"116"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 116]]
+Completed 201 Created in 4ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/117.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"117"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 117]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/150.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"150"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 150]]
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/151.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"151"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 151]]
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/152.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"152"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 152]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/153.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"153"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 153]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/154.json" for 127.0.0.1 at 2015-10-03 17:45:47 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"154"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 154]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-03 17:47:51 +0200
+Processing by MapsController#index as HTML
+  Rendered maps/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 352ms (Views: 350.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nav-side.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/material.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/albums.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/bandeau.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/ng-animation.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/palette.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/toolbar.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/upload.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/lib/angular.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/lib/angular-aria.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/lib/angular-animate.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/lib/angular-material.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/lib/angular-file-upload.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/lib/lodash.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/lib/angular-google-maps.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/lib/angular-file-upload-shim.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/lib/array-lib.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/lib/bluebird.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/lib/load-image.all.min.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:52 +0200
+
+
+Started GET "/assets/lib/string-lib.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/maps/modules/maps_module.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/albums/controllers/album_edit_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/albums/controllers/palette_album_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/albums/directives/album.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/albums/services/album_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/generics/services.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/locations/controllers/locations_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/locations/services/convert_services.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/locations/services/location_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/maps/controllers/maps_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/maps/directives/bandeau_information.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/maps/directives/marker_pictures.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/pictures/controllers/palette_picture_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/pictures/controllers/picture_sheet_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/pictures/controllers/pictures_edit_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/pictures/directives/picture.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/pictures/directives/pictures.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/pictures/services/file_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/pictures/services/picture_service.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/toolbar/controllers/toolbar_controller.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-03 17:47:53 +0200
+
+
+Started GET "/assets/template/map/marker_picture.html" for 127.0.0.1 at 2015-10-03 17:47:54 +0200
+
+
+Started GET "/assets/template/map/bandeau_information.html" for 127.0.0.1 at 2015-10-03 17:47:54 +0200
+
+
+Started GET "/api/albums.json" for 127.0.0.1 at 2015-10-03 17:47:54 +0200
+Processing by Api::AlbumsController#index as JSON
+  [1m[36mAlbum Load (1.0ms)[0m  [1mSELECT "albums".* FROM "albums"[0m
+Completed 201 Created in 3ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/template/album/album.html" for 127.0.0.1 at 2015-10-03 17:47:54 +0200
+
+
+Started GET "/api/albums/9/pictures.json" for 127.0.0.1 at 2015-10-03 17:47:54 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"9"}
+  [1m[35mPicture Load (1.0ms)[0m  SELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 9
+Completed 201 Created in 5ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/7/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 17:47:54 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"7"}
+  [1m[36mPicture Load (2.0ms)[0m  [1mSELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 7  ORDER BY "pictures"."id" DESC LIMIT 4[0m
+Completed 201 Created in 14ms (Views: 2.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/api/albums/6/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 17:47:54 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"6"}
+  [1m[35mPicture Load (0.0ms)[0m  SELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6  ORDER BY "pictures"."id" DESC LIMIT 4
+Completed 201 Created in 10ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/albums/9/pictures.json?numberGet=4" for 127.0.0.1 at 2015-10-03 17:47:54 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"numberGet"=>"4", "album_id"=>"9"}
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT  "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 9  ORDER BY "pictures"."id" DESC LIMIT 4[0m
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/delete.svg" for 127.0.0.1 at 2015-10-03 17:47:54 +0200
+
+
+Started GET "/assets/edit.svg" for 127.0.0.1 at 2015-10-03 17:47:54 +0200
+
+
+Started GET "/assets/template/picture/picture.html" for 127.0.0.1 at 2015-10-03 17:47:54 +0200
+
+
+Started GET "/api/albums/6/pictures.json" for 127.0.0.1 at 2015-10-03 17:47:58 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"6"}
+  [1m[35mPicture Load (1.0ms)[0m  SELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6
+Completed 201 Created in 27ms (Views: 3.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/110.json" for 127.0.0.1 at 2015-10-03 17:47:58 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"110"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 110]]
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/112.json" for 127.0.0.1 at 2015-10-03 17:47:58 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"112"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 112]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/113.json" for 127.0.0.1 at 2015-10-03 17:47:58 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"113"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 113]]
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/114.json" for 127.0.0.1 at 2015-10-03 17:47:58 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"114"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 114]]
+Completed 201 Created in 18ms (Views: 5.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/111.json" for 127.0.0.1 at 2015-10-03 17:47:58 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"111"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 111]]
+Completed 201 Created in 5ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/115.json" for 127.0.0.1 at 2015-10-03 17:47:59 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"115"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 115]]
+Completed 201 Created in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/116.json" for 127.0.0.1 at 2015-10-03 17:47:59 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"116"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 116]]
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/117.json" for 127.0.0.1 at 2015-10-03 17:47:59 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"117"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 117]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/7/pictures.json" for 127.0.0.1 at 2015-10-03 17:48:02 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"7"}
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 7[0m
+Completed 201 Created in 11ms (Views: 4.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/151.json" for 127.0.0.1 at 2015-10-03 17:48:02 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"151"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 151]]
+Completed 201 Created in 5ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/152.json" for 127.0.0.1 at 2015-10-03 17:48:02 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"152"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 152]]
+Completed 201 Created in 5ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/153.json" for 127.0.0.1 at 2015-10-03 17:48:02 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"153"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 153]]
+Completed 201 Created in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/150.json" for 127.0.0.1 at 2015-10-03 17:48:02 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"150"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 150]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/154.json" for 127.0.0.1 at 2015-10-03 17:48:02 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"154"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 154]]
+Completed 201 Created in 20ms (Views: 15.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/6/pictures.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"6"}
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6[0m
+Completed 201 Created in 11ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/7/pictures.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"7"}
+  [1m[35mPicture Load (1.0ms)[0m  SELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 7
+Completed 201 Created in 10ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/111.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"111"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 111]]
+Completed 201 Created in 24ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/110.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"110"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 110]]
+Completed 201 Created in 17ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/113.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"113"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 113]]
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/114.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"114"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 114]]
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/112.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"112"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 112]]
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/115.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"115"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 115]]
+Completed 201 Created in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/116.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"116"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 116]]
+Completed 201 Created in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/117.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"117"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 117]]
+Completed 201 Created in 7ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/150.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"150"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 150]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/151.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"151"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 151]]
+Completed 201 Created in 2ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/152.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"152"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 152]]
+Completed 201 Created in 9ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/153.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"153"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 153]]
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/154.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"154"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 154]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/111.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"111"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 111]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/110.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"110"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 110]]
+Completed 201 Created in 5ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/113.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"113"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 113]]
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/114.json" for 127.0.0.1 at 2015-10-03 17:48:04 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"114"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 114]]
+Completed 201 Created in 4ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/112.json" for 127.0.0.1 at 2015-10-03 17:48:05 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"112"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 112]]
+Completed 201 Created in 4ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/115.json" for 127.0.0.1 at 2015-10-03 17:48:05 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"115"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 115]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/116.json" for 127.0.0.1 at 2015-10-03 17:48:05 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"116"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 116]]
+Completed 201 Created in 2ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/117.json" for 127.0.0.1 at 2015-10-03 17:48:05 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"117"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 117]]
+Completed 201 Created in 6ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/albums/6/pictures.json" for 127.0.0.1 at 2015-10-03 17:48:09 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"6"}
+  [1m[35mPicture Load (0.0ms)[0m  SELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6
+Completed 201 Created in 15ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/111.json" for 127.0.0.1 at 2015-10-03 17:48:09 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"111"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 111]]
+Completed 201 Created in 9ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/110.json" for 127.0.0.1 at 2015-10-03 17:48:09 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"110"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 110]]
+Completed 201 Created in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/113.json" for 127.0.0.1 at 2015-10-03 17:48:09 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"113"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 113]]
+Completed 201 Created in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/114.json" for 127.0.0.1 at 2015-10-03 17:48:09 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"114"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 114]]
+Completed 201 Created in 13ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/115.json" for 127.0.0.1 at 2015-10-03 17:48:09 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"115"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 115]]
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/112.json" for 127.0.0.1 at 2015-10-03 17:48:09 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"112"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 112]]
+Completed 201 Created in 5ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/116.json" for 127.0.0.1 at 2015-10-03 17:48:09 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"116"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 116]]
+Completed 201 Created in 5ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/117.json" for 127.0.0.1 at 2015-10-03 17:48:09 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"117"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 117]]
+Completed 201 Created in 13ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/albums/6/pictures.json" for 127.0.0.1 at 2015-10-03 17:48:11 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"6"}
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6[0m
+Completed 201 Created in 12ms (Views: 3.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/110.json" for 127.0.0.1 at 2015-10-03 17:48:11 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"110"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 110]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/112.json" for 127.0.0.1 at 2015-10-03 17:48:11 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"112"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 112]]
+Completed 201 Created in 8ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/114.json" for 127.0.0.1 at 2015-10-03 17:48:11 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"114"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 114]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/117.json" for 127.0.0.1 at 2015-10-03 17:48:11 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"117"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 117]]
+Completed 201 Created in 2ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/111.json" for 127.0.0.1 at 2015-10-03 17:48:11 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"111"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 111]]
+Completed 201 Created in 9ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/115.json" for 127.0.0.1 at 2015-10-03 17:48:11 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"115"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 115]]
+Completed 201 Created in 8ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/116.json" for 127.0.0.1 at 2015-10-03 17:48:11 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"116"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 116]]
+Completed 201 Created in 6ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/113.json" for 127.0.0.1 at 2015-10-03 17:48:11 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"113"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 113]]
+Completed 201 Created in 4ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/6/pictures.json" for 127.0.0.1 at 2015-10-03 17:48:17 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"6"}
+  [1m[35mPicture Load (0.0ms)[0m  SELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 6
+Completed 201 Created in 14ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/111.json" for 127.0.0.1 at 2015-10-03 17:48:17 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"111"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 111]]
+Completed 201 Created in 8ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/110.json" for 127.0.0.1 at 2015-10-03 17:48:17 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"110"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 110]]
+Completed 201 Created in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/115.json" for 127.0.0.1 at 2015-10-03 17:48:17 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"115"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 115]]
+Completed 201 Created in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/114.json" for 127.0.0.1 at 2015-10-03 17:48:17 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"114"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 114]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/113.json" for 127.0.0.1 at 2015-10-03 17:48:17 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"113"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 113]]
+Completed 201 Created in 6ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/112.json" for 127.0.0.1 at 2015-10-03 17:48:17 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"112"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 112]]
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/116.json" for 127.0.0.1 at 2015-10-03 17:48:17 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"116"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 116]]
+Completed 201 Created in 3ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/117.json" for 127.0.0.1 at 2015-10-03 17:48:17 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"117"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 117]]
+Completed 201 Created in 2ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/albums/7/pictures.json" for 127.0.0.1 at 2015-10-03 17:48:18 +0200
+Processing by Api::PicturesController#index as JSON
+  Parameters: {"album_id"=>"7"}
+  [1m[36mPicture Load (1.0ms)[0m  [1mSELECT "pictures".* FROM "pictures"  WHERE "pictures"."album_id" = 7[0m
+Completed 201 Created in 12ms (Views: 3.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/150.json" for 127.0.0.1 at 2015-10-03 17:48:18 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"150"}
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 150]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/153.json" for 127.0.0.1 at 2015-10-03 17:48:18 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"153"}
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 153]]
+Completed 201 Created in 5ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/locations/151.json" for 127.0.0.1 at 2015-10-03 17:48:18 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"151"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 151]]
+Completed 201 Created in 4ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/152.json" for 127.0.0.1 at 2015-10-03 17:48:18 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"152"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 152]]
+Completed 201 Created in 6ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/locations/154.json" for 127.0.0.1 at 2015-10-03 17:48:18 +0200
+Processing by Api::LocationsController#show as JSON
+  Parameters: {"id"=>"154"}
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 154]]
+Completed 201 Created in 2ms (Views: 0.0ms | ActiveRecord: 1.0ms)

@@ -7,6 +7,8 @@
 			</md-button>
 			<span class="center">My Trip Map</span>
 			<!-- fill up the space between left and right area -->
+			<span flex="33"></span>
+			<span class="center">{{toolbarCtrl.selectedAlbumsNames()}}</span>
 			<span flex></span>
 			<md-button ng-click="toolbarCtrl.doShowPictures($event)" class="md-button" ng-show="toolbarCtrl.hasSelectedAlbums()">
 				Show pictures

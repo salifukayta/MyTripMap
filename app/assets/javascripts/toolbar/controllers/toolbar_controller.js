@@ -9,6 +9,19 @@ app.controller("toolbarController", ['$scope', '$mdSidenav', '$log', 'dialogServ
     var _this = this;
 
     /**
+     * Return the selected albums names
+     *
+     * @returns {boolean}
+     */
+    this.selectedAlbumsNames = function() {
+        var selectedAlbumsNames = "";
+        for (var key in _this.selectedListAlbums) {
+            selectedAlbumsNames = selectedAlbumsNames + _this.selectedListAlbums[key].name + ", ";
+        }
+        return selectedAlbumsNames.substring(0, selectedAlbumsNames.length - 2);
+    };
+
+    /**
      * Return true if an album is selected
      *
      * @returns {boolean}
