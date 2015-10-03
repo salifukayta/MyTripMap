@@ -1,0 +1,22 @@
+<div ng-controller="coordinatesController as coordinatesCtrl"
+		class="click-coordinates-position" ng-show="paletteAlbumCtrl.showClickCoordinates">
+	<div class="modal-header">
+		<h3 class="modal-title" ng-click="coordinatesCtrl.getCoordinates()">Click on picture's location</h3>
+	</div>
+	<div class="modal-body">
+		<label>Latitude: </label>
+		<input type="text" ng-model="coordinatesCtrl.coordinates.latitude"/>
+		<br>
+
+		<label>Longitude</label>
+		<input type="text" ng-model="coordinatesCtrl.coordinates.longitude"/>
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-primary" ng-disabled="coordinatesCtrl.waitCoordinates" ng-click="coordinatesCtrl.save()">
+			Save
+		</button>
+		<button class="btn btn-primary" ng-click="coordinatesCtrl.cancel()">
+			Canel
+		</button>
+	</div>
+</div>

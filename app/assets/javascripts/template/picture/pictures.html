@@ -1,0 +1,9 @@
+<div class="pictures">
+	<div ng-repeat="pictureObject in pictures">
+		<picture object="pictureObject" selected-picture-id="picturesCtrl.selectedPictureId"></picture>
+	</div>
+</div>
+
+<div class="preloading-position" ng-show="picturesCtrl.loading">
+	<img src="assets/preloader.gif"/>
+</div>

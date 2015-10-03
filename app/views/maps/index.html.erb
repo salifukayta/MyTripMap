@@ -1,0 +1,74 @@
+<md-content ng-controller="toolbarController as toolbarCtrl" class="content-position">
+	<md-toolbar>
+		<div class="md-toolbar-tools">
+			<!--Fab menu-->
+			<md-button class="md-button" ng-click="toolbarCtrl.menu()">
+				Menu
+			</md-button>
+			<span class="center">My Trip Map</span>
+			<!-- fill up the space between left and right area -->
+			<span flex></span>
+			<md-button ng-click="toolbarCtrl.doShowPictures($event)" class="md-button" ng-show="toolbarCtrl.hasSelectedAlbums()">
+				Show pictures
+			</md-button>
+			<md-button ng-click="toolbarCtrl.showAddPictures($event)" class="md-button" ng-show="toolbarCtrl.hasOneSelectedAlbum()">
+				<!--aria-label="Add pictures"-->
+				<!--class="md-fab md-hue-2 fab-size">-->
+				<!--<md-icon md-svg-src="assets/add.svg"></md-icon>-->
+				Add pictures
+			</md-button>
+			<md-button ng-click="toolbarCtrl.showAlbums()" class="md-button">
+				Show albums
+			</md-button>
+			<md-button ng-click="toolbarCtrl.showAddAlbum($event)" class="md-button">
+				<!--class="md-fab md-primary md-hue-2 fab-size"  aria-label="Add album"-->
+				<!--<md-icon md-svg-src="assets/add.svg"></md-icon>-->
+				Add album
+			</md-button>
+		</div>
+	</md-toolbar>
+
+	<md-content ng-controller="tripMapController as tripMapCtlr">
+		<!-- <ui-gmap-google-map class="span8" center="map.center" zoom="map.zoom" dragging="map.dragging"
+		bounds="map.bounds" events="map.events" options="map.options" pan="true" control="map.control">
+		style="height: 500px; width: 500px;" </ui-gmap-google-map> -->
+
+		<ui-gmap-google-map center="tripMapCtlr.map.center" zoom="tripMapCtlr.map.zoom"
+												control="tripMapCtlr.map.control" events="tripMapCtlr.map.events"
+												bounds="tripMapCtlr.map.bounds" options="tripMapCtlr.map.options">
+
+			<marker-pictures pictures="mapPictures"></marker-pictures>
+		</ui-gmap-google-map>
+
+		<bandeau-information ng-show="tripMapCtlr.isPickLocationMode" picture-to-upload="tripMapCtlr.currentPicture">
+		</bandeau-information>
+
+		<div ng-controller="paletteAlbumController as paletteAlbumCtrl">
+			<!--TODO maybe to hide it when side-nav is visible -->
+
+			<!-- side-nav Album -->
+			<md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="albums-sidenav" md-is-locked-open="paletteAlbumCtrl.hasNoSelectedAlbum()">
+				<md-toolbar class="md-theme-light" layout="row">
+					<h1 class="md-toolbar-tools">Albums List</h1>
+				</md-toolbar>
+				<md-content class="md-padding">
+					<md-list-item class="md-3-line" ng-repeat="albumObject in paletteAlbumCtrl.albumsList">
+						<album object="albumObject" selected-list-albums="paletteAlbumCtrl.selectedListAlbums"></album>
+					</md-list-item>
+				</md-content>
+
+				<md-button ng-click="paletteAlbumCtrl.closeAlbums()" class="md-primary">Hide albums</md-button>
+			</md-sidenav>
+
+			<!-- bottom-sheet Picture -->
+			<div ng-controller="palettePictureController as palettePictureCtrl">
+				<div class="bottom-sheet-demo" layout="row" layout-sm="column" layout-align="center">
+				</div>
+			</div>
+		</div>
+	</md-content>
+
+	<div layout="row" layout-sm="column" layout-align="space-around" class="preloading-position">
+		<md-progress-circular md-mode="indeterminate" theme="blue" ng-show="toolbarController.loading"/>
+	</div>
+</md-content>

@@ -1,0 +1,20 @@
+<md-bottom-sheet class="md-grid">
+	<md-list>
+		<md-item ng-repeat="picture in pictureCtrl.pictures">
+			<md-card>
+				<md-button class="md-grid-item-content" ng-click="pictureCtrl.selectPicture($index)" aria-label="Picture">
+					<img ng-src="{{picture.url.medium}}" alt="{{picture.fileName}}" class="face">
+					<div class="md-grid-text"> {{ picture.fileName }} </div>
+				</md-button>
+			</md-card>
+			<md-card-content class="md-actions" layout="row">
+				<md-button class="md-fab md-primary md-hue-2 fab-size" ng-click="pictureCtrl.showDelete($index, $event)" aria-label="Delete picture">
+					<md-icon md-svg-src="assets/delete.svg"></md-icon>
+				</md-button>
+				<md-button class="md-fab md-primary md-hue-2 fab-size" ng-click="pictureCtrl.showEdit($index, $event)" aria-label="Edit picture">
+					<md-icon md-svg-src="assets/edit.svg"></md-icon>
+				</md-button>
+			</md-card-content>
+		</md-item>
+	</md-list>
+</md-bottom-sheet>

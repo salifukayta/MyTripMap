@@ -1,0 +1,11 @@
+
+<div class="bandeau_laf"> 
+	<!-- TODO materiel pour mettre les composant dedans --> 
+	<p>Picture title: {{pictureToUpload.file.name}} <br/>
+	Location: {{pictureToUpload.newLocation.latitude}} x {{pictureToUpload.newLocation.longitude}} <br/>
+	Adress: {{pictureToUpload.newLocation.place}}</p>
+
+	<md-button class="md-raised md-primary" ng-disabled="!pictureToUpload.hasLocationInfo" ng-click="confirmLocation($event)">Confirm Location</md-button>
+		or
+	<md-button class="md-raised md-primary" ng-disabled="!pictureToUpload.hasLocationInfo" ng-click="confirmAndSave($event)">Save Picture</md-button>
+</div>

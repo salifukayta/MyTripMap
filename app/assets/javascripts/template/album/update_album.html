@@ -1,0 +1,22 @@
+<md-dialog aria-label="{{operation}} album">
+	<md-content>
+		<md-subheader class="md-sticky-no-effect">{{operation}} album</md-subheader>
+
+		<md-input-container flex>
+			<label>Name</label>
+			<input ng-model="currentAlbum.name">
+		</md-input-container>		
+
+		<md-input-container flex>
+			<label>Comment</label>
+			<input ng-model="currentAlbum.comment">
+		</md-input-container>		
+	</md-content>
+	
+	<div class="md-actions" layout="row">
+		<md-button class="md-raised md-primary" ng-click="save()">Save</md-button>
+		<md-button class="md-raised md-primary" ng-click="cancel()">Cancel</md-button>
+	</div>
+</md-dialog>
+
+

@@ -1,0 +1,24 @@
+<%= form_for :picture , url: location_album_pictures_path do |f|%>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= f.label :file_name %><br>
+    <%= f.text_field :file_name %>
+  </p>
+  
+  <p>
+    <%= f.label :comment %><br>
+    <%= f.text_area :comment %>
+  </p>
+
+  <p>
+    <%= f.label :album_id %><br>
+    <%= f.text_field :album_id %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

@@ -1,0 +1,5 @@
+<div ng-repeat="pictureObject in pictures">
+	<ui-gmap-marker coords="pictureObject.coords" options="pictureObject.options" class="radius"
+				events="pictureObject.events" idkey="pictureObject.id" icon="pictureObject.url.tsquare">
+	</ui-gmap-marker>
+</div>

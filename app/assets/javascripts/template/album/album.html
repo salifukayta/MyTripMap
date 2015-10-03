@@ -1,0 +1,19 @@
+<div class="album-row" ng-click="selectRow($event)" ng-class="{ row_selected: isSelected }">
+    <div class="md-actions" layout="row" horizontal layout reverse>
+        <b>{{album.name}}</b>
+        <md-button ng-click="showDelete($event)" class="md-fab md-primary md-hue-2 fab-size"
+                   aria-label="Delete picture">
+            <md-icon md-svg-src="assets/delete.svg"></md-icon>
+        </md-button>
+        <md-button ng-click="showEdit($event)" class="md-fab md-primary md-hue-2 fab-size"
+                   aria-label="Edit picture">
+            <md-icon md-svg-src="assets/edit.svg"></md-icon>
+        </md-button>
+    </div>
+
+    <md-card class="md-default-theme inline" ng-repeat="lastPicture in album.lastPictures">
+        <img ng-src="{{lastPicture.url.tsquare}}" alt="{{lastPicture.fileName}}" class="face">
+    </md-card>
+<!--	<p hide-md show-gt-md>{{album.comment}}</p> -->
+</div>
+

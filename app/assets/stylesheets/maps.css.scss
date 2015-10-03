@@ -1,0 +1,43 @@
+// Place all the styles related to the Maps controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// 
+/* fix for Twitter Bootstrap handling of responsive images */
+// .angular-google-map img {
+    // max-width: none;
+// }
+// 
+// .angular-google-map {
+    // top: 80px;
+// }
+
+.content-position {
+  margin-top: -16px;
+}
+
+.radius {
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -khtml-border-radius: 100px;
+}
+
+.angular-google-map-container {
+  width: 100%;
+  // heuteur carte
+  height: 900px;
+  // http://stackoverflow.com/questions/3437786/get-the-size-of-the-screen-current-web-page-and-browser-window
+  // currently in pc: width	1301 height 744
+  //	-webkit-border-radius: 1000px;
+  //	-moz-border-radius: 1000px;
+  //	border-radius: 1000px;
+}
+
+// palette album position and width
+.preloading-position {
+  position: absolute;
+  top: 40%;
+  right: 50%;
+}
+

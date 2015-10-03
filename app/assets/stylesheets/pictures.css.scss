@@ -1,0 +1,44 @@
+// Place all the styles related to the Pictures controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.picture-row {
+	cursor: pointer;
+}
+
+.row_selected {
+  border:1px solid red;
+}
+
+.picture-edit img {
+  width: 20%;
+  float: right;
+  padding-right: 7%;
+  margin-top: -13px;
+}
+
+.picture-delete img {
+  width: 20%;
+  float: right;
+  padding-right: 7%;
+  margin-top: -13px;
+}
+
+.picture {
+  overflow-y: scroll;
+  max-height: 500px;
+  width: 115%;
+  margin-left: -5%;
+}
+
+img.palette-size {
+  height: 70px;
+}
+
+/**
+* Position dialog update/add picture
+*/
+.dialog_picture_position {
+  left: -40%;
+}
+

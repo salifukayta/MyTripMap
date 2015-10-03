@@ -1,0 +1,46 @@
+<md-dialog aria-label="{{operation}} picture" class="dialog_picture_position">
+	<md-content>
+
+	<md-subheader class="md-sticky-no-effect">{{operation}} picture</md-subheader>
+
+		<!--TODO nettoyer upload picture -->
+		<div class="md-actions" layout="row">
+			<input type="file" ng-file-select="selectFileUpload($files)">
+			<!-- <md-button class="md-raised md-primary" ng-click="showUpload($files)">Pick picture</md-button>
+			<input type="file" ng-file-select="onFileSelect($files)" multiple accept="image/*"> -->
+			<!-- <div class="button" ng-file-select="onFileSelect($files)" data-multiple="true"></div>
+			<div ng-file-drop="onFileSelect($files)" ng-file-drag-over-class="optional-css-class-name-or-function"
+					ng-show="dropSupported">
+				drop files here
+			</div>
+			<div ng-file-drop-available="dropSupported=true" ng-show="!dropSupported">
+				HTML5 Drop File is not supported!
+			</div>
+			<md-button ng-click="upload.abort()">Cancel Upload</md-button> -->
+		</div>
+
+		<img class="palette-size" ng-src="{{currentPicture.url.medium}}" 
+				ng-show="currentPicture.url !== undefined && currentPicture.url.medium !== undefined" class="face" alt="{{currentPicture.fileName}}">
+
+		<!-- le clic sur le bouton change le text en textFiel pour le personaliser -->
+		<md-input-container flex>
+			<md-button class="md-fab md-primary md-hue-2 fab-size" ng-click="switchOnEditTitle()" aria-label="Edit picture title">
+				<md-icon md-svg-src="assets/edit.svg"></md-icon>
+			</md-button>
+			<p ng-hide="isOnEdit">{{currentPicture.title}}</p>
+			<input ng-model="currentPicture.title" ng-show="isOnEdit">
+		</md-input-container>
+		
+		<md-input-container flex>
+			<label>Comment</label>
+			<input ng-model="currentPicture.comment">
+		</md-input-container>
+	
+	</md-content>
+	
+	<div class="md-actions" layout="row">
+		<md-button class="md-raised md-primary" ng-show="isPickLocationActive()" ng-click="pickLocation($event)">Pick Location</md-button>
+		<md-button class="md-raised md-primary" ng-disabled="!currentPicture.hasLocationInfo" ng-click="save()">Save</md-button>
+		<md-button class="md-raised md-primary" ng-click="cancel()">Cancel</md-button>
+	</div>
+</md-dialog>
