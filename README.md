@@ -1,4 +1,4 @@
-# MyTripMap
+# MyTripMap to be deleted
 A way of organizing / viewing your pictures in the place where it was taken.
 
 To install this app web, you have to launch these commands :
